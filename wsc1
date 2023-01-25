@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main()
+{
+	char response[8];
+	puts("Continue?[y] n:");
+	gets(response);
+	if(response[0]=='n')
+	exit(0);
+	
+}       0                                                                                                                                                     
